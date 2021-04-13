@@ -1,0 +1,21 @@
+.page__body {
+  background: #fff;
+}
+
+.btn__link {
+  background: #73c241;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn__save {
+  background: blue;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}

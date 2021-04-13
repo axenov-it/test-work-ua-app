@@ -1,0 +1,35 @@
+.input__element {
+  border: 1px solid #cccbcb;
+  border-radius: 3px;
+  padding: 9px 18px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+}
+
+.input__element::-webkit-outer-spin-button,
+.input__element::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input__element {
+  -moz-appearance: textfield;
+}
+
+.input__elementWrap {
+  position: relative;
+  width: 100%;
+}
+
+.input__times {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #056969;
+}
+
+.input__element:focus {
+  border-color: #056969;
+}
